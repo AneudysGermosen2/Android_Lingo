@@ -10,6 +10,7 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.utils.ScreenUtils;
 
 import java.util.Random;
+//just pushed from a mac
 
 public class MyGdxGame extends Game {
 
@@ -32,6 +33,7 @@ public class MyGdxGame extends Game {
 	@Override
 	public void render() {
 		super.render();
+
 	}
 
 	@Override
