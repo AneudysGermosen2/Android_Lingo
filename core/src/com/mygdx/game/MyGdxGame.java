@@ -13,7 +13,7 @@ import java.util.Random;
 //just pushed from a mac
 
 public class MyGdxGame extends Game {
-
+	//testttttting
 	//GameScreen gameScreen;
 	public static Random rand = new Random();
 	SpriteBatch batch;
