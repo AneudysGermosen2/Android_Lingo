@@ -7,21 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class activity_instruction extends AppCompatActivity {
 
-    Button instructions;
+    Button goBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_instruction);
 
-        instructions = (Button) findViewById(R.id.instrcutionButton);
+        goBack = (Button)findViewById(R.id.Back);
 
-        instructions.setOnClickListener(new View.OnClickListener() {
+        goBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, activity_instruction.class);
+                Intent intent = new Intent(activity_instruction.this, MainActivity.class);
                 startActivity(intent);
             }
         });
