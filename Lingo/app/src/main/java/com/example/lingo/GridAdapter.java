@@ -1,4 +1,4 @@
-package com.example.lingoforandroid;
+package com.example.lingo;
 
 import android.content.Context;
 import android.view.LayoutInflater;
