@@ -41,7 +41,11 @@
         android:id="@+id/Play"
         android:text="PLAY"
         />
-
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridView"
+        android:numColumns="2"/>
 
 
 </RelativeLayout>
