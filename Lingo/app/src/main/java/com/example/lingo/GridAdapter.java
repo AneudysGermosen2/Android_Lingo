@@ -40,14 +40,14 @@ public class GridAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        if (inflater == null)
-            inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+       if (inflater == null)
+           inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
-        if (convertView == null){
+       if (convertView == null){
 
-            convertView = inflater.inflate(R.layout.grid_item,null);
+           convertView = inflater.inflate(R.layout.grid_item,null);
 
-        }
+       }
 
         ImageView imageView = convertView.findViewById(R.id.grid_image);
         TextView textView = convertView.findViewById(R.id.item_name);
