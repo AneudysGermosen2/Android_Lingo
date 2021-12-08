@@ -1,4 +1,4 @@
-package com.example.Lingo;
+package com.example.lingo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
