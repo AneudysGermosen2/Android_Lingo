@@ -8,12 +8,17 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.GridView;
+//import com.example.Gridview.databinding.ActivityMainBinding;
+import android.widget.GridView.*;
+
 
 public class MainActivity extends AppCompatActivity {
 
     Button instructions;
     Button play;
     MediaPlayer click;
+    GridView gridView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, GridAdapter.class);
-                click.start();
-                startActivity(intent);
+                //Intent intent = new Intent(MainActivity.this, Gamescreen.class);
+                //click.start();
+                //startActivity(intent);
             }
         });
 

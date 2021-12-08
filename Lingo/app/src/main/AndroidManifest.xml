@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lingo"
         tools:targetApi="31">
+
         <activity
             android:name=".activity_instruction"
             android:exported="false" />
