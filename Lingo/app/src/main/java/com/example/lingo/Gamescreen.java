@@ -8,17 +8,20 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.Toast;
 
+import com.example.lingo.databinding.ActivityGridBinding;
+import com.example.lingo.databinding.ActivityInstructionBinding;
 import com.example.lingo.databinding.ActivityMainBinding;
 
 public class Gamescreen extends AppCompatActivity{
 
-    ActivityMainBinding binding;
-
+    //ActivityMainBinding binding;
+    ActivityGridBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        binding = ActivityGridBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        //setContentView(R.layout.grid_item);
 
         String[] slotName = {"","","","",
                 "","","","","",""};

@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:background="@color/chalk_board"
+
     >
 
 
@@ -12,15 +14,15 @@
         android:id="@+id/func"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="120dp"
         android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/coiny"
         android:text="Guess 5 letter words. If your guess contains
 one of the words that the mystery word contains the letter will turn yellow. If
 If your guess conatins the same letter and letter placement the word will turn green. Else your word will turn red"
-        android:textStyle="bold"
-        android:textSize="30dp"
-        android:textColor="@android:color/background_dark"
-         />
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="150dp"
