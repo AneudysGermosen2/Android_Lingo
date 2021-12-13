@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        click = MediaPlayer.create(this, R.raw.game_music);
+        click = MediaPlayer.create(this, R.raw.bruh);
+        click.setVolume(1f,1f);
         play = (Button) findViewById(R.id.playButton);
         instructions = (Button) findViewById(R.id.instrcutionButton);
 
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Gamescreen.class);
-                //click.start();
+                click.start();
                 startActivity(intent);
             }
         });
@@ -41,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, activity_instruction.class);
-                //click.start();
+                click.start();
                 startActivity(intent);
             }
         });
