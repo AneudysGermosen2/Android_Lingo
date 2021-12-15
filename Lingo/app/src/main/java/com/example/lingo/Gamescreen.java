@@ -23,10 +23,11 @@ public class Gamescreen extends AppCompatActivity{
         setContentView(binding.getRoot());
         //setContentView(R.layout.grid_item);
 
-        String[] slotName = {"","","","",
-                "","","","","",""};
-        int[] slotImages = {R.drawable.a0,R.drawable.b,R.drawable.c,R.drawable.d,R.drawable.e,R.drawable.f,R.drawable.g,
-                R.drawable.h,R.drawable.i,R.drawable.j};
+        //have slots for yellow letters on top, representing goal word. then guesses get new rows of slots with blue for wrong place yellow for right place and white for wrong letter
+        //first row should start with underlines filling slots and letters filling it should also be underlined.
+
+        String[] slotName = {"","","",""};
+        int[] slotImages = {R.drawable.a0,R.drawable.zero,R.drawable.b0,R.drawable.c0};
 
         GridAdapter gridAdapter = new GridAdapter(Gamescreen.this,slotName,slotImages);
         binding.gridView.setAdapter(gridAdapter);
