@@ -25,7 +25,7 @@ public class Gamescreen extends AppCompatActivity{
 
         String[] slotName = {"","","","",
                 "","","","","",""};
-        int[] slotImages = {R.drawable.a,R.drawable.b,R.drawable.c,R.drawable.d,R.drawable.e,R.drawable.f,R.drawable.g,
+        int[] slotImages = {R.drawable.a0,R.drawable.b,R.drawable.c,R.drawable.d,R.drawable.e,R.drawable.f,R.drawable.g,
                 R.drawable.h,R.drawable.i,R.drawable.j};
 
         GridAdapter gridAdapter = new GridAdapter(Gamescreen.this,slotName,slotImages);
