@@ -152,7 +152,7 @@ public class Gamescreen extends AppCompatActivity{
                 "ovum", "owed", "owes", "owls", "owns", "oxen", "oxes", "oyer", "oyes", "oyez", "pace", "pack", "pacs", "pact",
                 "pads", "page", "paid", "pail", "pain", "pair", "pale", "pall", "palm", "pals", "pane", "pang", "pans", "pant",
                 "papa", "paps", "para", "pard", "pare", "park", "pars", "part", "paso", "pass", "past", "pate", "path", "pats",
-                "pave", "pawl", "pawn", "paws", "pays", "peak", "peal", "pean", "pear", "peas", "peat", "peck", "peds", "peed",
+                "pave", "pawl", "pawn", "paws", "pays", "peak", "peal", "pean", "pear", "peas", "peat", "peck", "peed",
                 "peek", "peel", "peen", "peep", "peer", "pees", "pegs", "peke", "pelf", "pelt", "pend", "pens", "pent", "peon",
                 "peps", "pere", "perk", "perm", "pert", "peru", "peso", "pest", "pets", "pews", "phew", "phiz", "pica", "pick",
                 "pics", "pied", "pier", "pies", "pigs", "pike", "pile", "pill", "pima", "pimp", "pine", "ping", "pink", "pins",
