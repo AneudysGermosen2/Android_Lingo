@@ -11,7 +11,11 @@ import android.widget.Toast;
 import com.example.lingo.databinding.ActivityGridBinding;
 import com.example.lingo.databinding.ActivityInstructionBinding;
 import com.example.lingo.databinding.ActivityMainBinding;
+
 import java.util.Random;
+import java.io.*;
+import java.util.List;
+import java.util.ArrayList;
 
 public class Gamescreen extends AppCompatActivity{
 
@@ -40,12 +44,15 @@ public class Gamescreen extends AppCompatActivity{
         //first row should start with underlines filling slots and letters filling it should also be underlined.
 
         String[] slotName = {"","","",""};
-        int[] slotImages = {R.drawable.zero,R.drawable.zero,R.drawable.zero,R.drawable.zero};
+        //int[] slotImages = {R.drawable.zero,R.drawable.zero,R.drawable.zero,R.drawable.zero};
+        List<Integer> slotImages = new ArrayList<Integer>();
+        //Use two string arrays for slotname in order to expand it's size dynamically
+        //convert arraylist to int[] like original noted out line 3 lines above before adding to it or something
 
         GridAdapter gridAdapter = new GridAdapter(Gamescreen.this, slotName, slotImages);
         binding.gridView.setAdapter(gridAdapter);
 
-        String guess = "bear"; //take input if in dictionary
+        String guess = "bear"; //take input after verifying that it is in dictionary
         char first = guess.charAt(0);
         char second = guess.charAt(1);
         char third = guess.charAt(2);
