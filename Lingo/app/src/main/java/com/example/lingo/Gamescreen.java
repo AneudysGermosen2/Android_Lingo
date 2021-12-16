@@ -45,6 +45,332 @@ public class Gamescreen extends AppCompatActivity{
         GridAdapter gridAdapter = new GridAdapter(Gamescreen.this, slotName, slotImages);
         binding.gridView.setAdapter(gridAdapter);
 
+        String guess = "bear"; //take input if in dictionary
+        char first = guess.charAt(0);
+        char second = guess.charAt(1);
+        char third = guess.charAt(2);
+        char fourth = guess.charAt(3);
+        if(one == first){
+            if(one == 'a'){
+                slotImages[0] = R.drawable.a0;
+            }
+            else if(one == 'b'){
+                slotImages[0] = R.drawable.b0;
+            }
+            else if(one == 'c'){
+                slotImages[0] = R.drawable.c0;
+            }
+            else if(one == 'd'){
+                slotImages[0] = R.drawable.d0;
+            }
+            else if(one == 'e'){
+                slotImages[0] = R.drawable.e0;
+            }
+            else if(one == 'f'){
+                slotImages[0] = R.drawable.f0;
+            }
+            else if(one == 'g'){
+                slotImages[0] = R.drawable.g0;
+            }
+            else if(one == 'h'){
+                slotImages[0] = R.drawable.h0;
+            }
+            else if(one == 'i'){
+                slotImages[0] = R.drawable.i0;
+            }
+            else if(one == 'j'){
+                slotImages[0] = R.drawable.j0;
+            }
+            else if(one == 'k'){
+                slotImages[0] = R.drawable.k0;
+            }
+            else if(one == 'l'){
+                slotImages[0] = R.drawable.l0;
+            }
+            else if(one == 'm'){
+                slotImages[0] = R.drawable.m0;
+            }
+            else if(one == 'n'){
+                slotImages[0] = R.drawable.n0;
+            }
+            else if(one == 'o'){
+                slotImages[0] = R.drawable.o0;
+            }
+            else if(one == 'p'){
+                slotImages[0] = R.drawable.p0;
+            }
+            else if(one == 'q'){
+                slotImages[0] = R.drawable.q0;
+            }
+            else if(one == 'r'){
+                slotImages[0] = R.drawable.r0;
+            }
+            else if(one == 's'){
+                slotImages[0] = R.drawable.s0;
+            }
+            else if(one == 't'){
+                slotImages[0] = R.drawable.t0;
+            }
+            else if(one == 'u'){
+                slotImages[0] = R.drawable.u0;
+            }
+            else if(one == 'v'){
+                slotImages[0] = R.drawable.v0;
+            }
+            else if(one == 'w'){
+                slotImages[0] = R.drawable.w0;
+            }
+            else if(one == 'x'){
+                slotImages[0] = R.drawable.x0;
+            }
+            else if(one == 'y'){
+                slotImages[0] = R.drawable.y0;
+            }
+            else if(one == 'z'){
+                slotImages[0] = R.drawable.z0;
+            }
+        }
+        if(two == second){
+            if(two == 'a'){
+                slotImages[1] = R.drawable.a0;
+            }
+            else if(two == 'b'){
+                slotImages[1] = R.drawable.b0;
+            }
+            else if(two == 'c'){
+                slotImages[1] = R.drawable.c0;
+            }
+            else if(two == 'd'){
+                slotImages[1] = R.drawable.d0;
+            }
+            else if(two == 'e'){
+                slotImages[1] = R.drawable.e0;
+            }
+            else if(two == 'f'){
+                slotImages[1] = R.drawable.f0;
+            }
+            else if(two == 'g'){
+                slotImages[1] = R.drawable.g0;
+            }
+            else if(two == 'h'){
+                slotImages[1] = R.drawable.h0;
+            }
+            else if(two == 'i'){
+                slotImages[1] = R.drawable.i0;
+            }
+            else if(two == 'j'){
+                slotImages[1] = R.drawable.j0;
+            }
+            else if(two == 'k'){
+                slotImages[1] = R.drawable.k0;
+            }
+            else if(two == 'l'){
+                slotImages[1] = R.drawable.l0;
+            }
+            else if(two == 'm'){
+                slotImages[1] = R.drawable.m0;
+            }
+            else if(two == 'n'){
+                slotImages[1] = R.drawable.n0;
+            }
+            else if(two == 'o'){
+                slotImages[1] = R.drawable.o0;
+            }
+            else if(two == 'p'){
+                slotImages[1] = R.drawable.p0;
+            }
+            else if(two == 'q'){
+                slotImages[1] = R.drawable.q0;
+            }
+            else if(two == 'r'){
+                slotImages[1] = R.drawable.r0;
+            }
+            else if(two == 's'){
+                slotImages[1] = R.drawable.s0;
+            }
+            else if(two == 't'){
+                slotImages[1] = R.drawable.t0;
+            }
+            else if(two == 'u'){
+                slotImages[1] = R.drawable.u0;
+            }
+            else if(two == 'v'){
+                slotImages[1] = R.drawable.v0;
+            }
+            else if(two == 'w'){
+                slotImages[1] = R.drawable.w0;
+            }
+            else if(two == 'x'){
+                slotImages[1] = R.drawable.x0;
+            }
+            else if(two == 'y'){
+                slotImages[1] = R.drawable.y0;
+            }
+            else if(two == 'z'){
+                slotImages[1] = R.drawable.z0;
+            }
+        }
+        if(three == third){
+            if(three == 'a'){
+                slotImages[2] = R.drawable.a0;
+            }
+            else if(three == 'b'){
+                slotImages[2] = R.drawable.b0;
+            }
+            else if(three == 'c'){
+                slotImages[2] = R.drawable.c0;
+            }
+            else if(three == 'd'){
+                slotImages[2] = R.drawable.d0;
+            }
+            else if(three == 'e'){
+                slotImages[2] = R.drawable.e0;
+            }
+            else if(three == 'f'){
+                slotImages[2] = R.drawable.f0;
+            }
+            else if(three == 'g'){
+                slotImages[2] = R.drawable.g0;
+            }
+            else if(three == 'h'){
+                slotImages[2] = R.drawable.h0;
+            }
+            else if(three == 'i'){
+                slotImages[2] = R.drawable.i0;
+            }
+            else if(three == 'j'){
+                slotImages[2] = R.drawable.j0;
+            }
+            else if(three == 'k'){
+                slotImages[2] = R.drawable.k0;
+            }
+            else if(three == 'l'){
+                slotImages[2] = R.drawable.l0;
+            }
+            else if(three == 'm'){
+                slotImages[2] = R.drawable.m0;
+            }
+            else if(three == 'n'){
+                slotImages[2] = R.drawable.n0;
+            }
+            else if(three == 'o'){
+                slotImages[2] = R.drawable.o0;
+            }
+            else if(three == 'p'){
+                slotImages[2] = R.drawable.p0;
+            }
+            else if(three == 'q'){
+                slotImages[2] = R.drawable.q0;
+            }
+            else if(three == 'r'){
+                slotImages[2] = R.drawable.r0;
+            }
+            else if(three == 's'){
+                slotImages[2] = R.drawable.s0;
+            }
+            else if(three == 't'){
+                slotImages[2] = R.drawable.t0;
+            }
+            else if(three == 'u'){
+                slotImages[2] = R.drawable.u0;
+            }
+            else if(three == 'v'){
+                slotImages[2] = R.drawable.v0;
+            }
+            else if(three == 'w'){
+                slotImages[2] = R.drawable.w0;
+            }
+            else if(three == 'x'){
+                slotImages[2] = R.drawable.x0;
+            }
+            else if(three == 'y'){
+                slotImages[2] = R.drawable.y0;
+            }
+            else if(three == 'z'){
+                slotImages[2] = R.drawable.z0;
+            }
+        }
+        if(four == fourth){
+            if(four == 'a'){
+                slotImages[3] = R.drawable.a0;
+            }
+            else if(four == 'b'){
+                slotImages[3] = R.drawable.b0;
+            }
+            else if(four == 'c'){
+                slotImages[3] = R.drawable.c0;
+            }
+            else if(four == 'd'){
+                slotImages[3] = R.drawable.d0;
+            }
+            else if(four == 'e'){
+                slotImages[3] = R.drawable.e0;
+            }
+            else if(four == 'f'){
+                slotImages[3] = R.drawable.f0;
+            }
+            else if(four == 'g'){
+                slotImages[3] = R.drawable.g0;
+            }
+            else if(four == 'h'){
+                slotImages[3] = R.drawable.h0;
+            }
+            else if(four == 'i'){
+                slotImages[3] = R.drawable.i0;
+            }
+            else if(four == 'j'){
+                slotImages[3] = R.drawable.j0;
+            }
+            else if(four == 'k'){
+                slotImages[3] = R.drawable.k0;
+            }
+            else if(four == 'l'){
+                slotImages[3] = R.drawable.l0;
+            }
+            else if(four == 'm'){
+                slotImages[3] = R.drawable.m0;
+            }
+            else if(four == 'n'){
+                slotImages[3] = R.drawable.n0;
+            }
+            else if(four == 'o'){
+                slotImages[3] = R.drawable.o0;
+            }
+            else if(four == 'p'){
+                slotImages[3] = R.drawable.p0;
+            }
+            else if(four == 'q'){
+                slotImages[3] = R.drawable.q0;
+            }
+            else if(four == 'r'){
+                slotImages[3] = R.drawable.r0;
+            }
+            else if(four == 's'){
+                slotImages[3] = R.drawable.s0;
+            }
+            else if(four == 't'){
+                slotImages[3] = R.drawable.t0;
+            }
+            else if(four == 'u'){
+                slotImages[3] = R.drawable.u0;
+            }
+            else if(four == 'v'){
+                slotImages[3] = R.drawable.v0;
+            }
+            else if(four == 'w'){
+                slotImages[3] = R.drawable.w0;
+            }
+            else if(four == 'x'){
+                slotImages[3] = R.drawable.x0;
+            }
+            else if(four == 'y'){
+                slotImages[3] = R.drawable.y0;
+            }
+            else if(four == 'z'){
+                slotImages[3] = R.drawable.z0;
+            }
+        }
+
 
 //        binding.gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 //            @Override
