@@ -208,7 +208,7 @@ public class Gamescreen extends AppCompatActivity{
                 "trek", "trey", "trig", "trim", "trio", "trip", "trod", "trop", "trot", "trow", "troy", "true", "tsar", "tuba",
                 "tube", "tubs", "tuck", "tufa", "tuff", "tuft", "tugs", "tuna", "tune", "tuns", "tups", "turd", "turf", "turk",
                 "turn", "tush", "tusk", "tuts", "tutu", "twas", "twat", "twig", "twin", "twit", "twos", "tyke", "type", "typo",
-                "tyre", "tyro", "tzar", "ugli", "ugly", "ulva", "umps", "unco", "undo", "undy", "unto", "upon", "ural", "urge",
+                "tyre", "tyro", "tzar", "ugli", "ugly", "ulva", "umps", "undo", "undy", "unto", "upon", "ural", "urge",
                 "urns", "ursa", "used", "user", "uses", "utah", "vail", "vain", "vale", "vamp", "vane", "vans",
                 "vary", "vase", "vast", "vats", "veal", "veda", "veep", "veer", "veil", "vein", "vela", "veld", "vend",
                 "vent", "verb", "vert", "very", "vest", "veto", "vets", "vial", "vias", "vice", "vide", "vied", "vier",
