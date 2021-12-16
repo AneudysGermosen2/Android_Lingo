@@ -330,107 +330,107 @@ public class Gamescreen extends AppCompatActivity{
         }
         if(two == second){
             if(two == 'a'){
-                slotImages[0] = R.drawable.a0;
+                slotImages[1] = R.drawable.a0;
                 slotImages[guesscount*4+1] = R.drawable.a2;
             }
             else if(two == 'b'){
-                slotImages[0] = R.drawable.b0;
+                slotImages[1] = R.drawable.b0;
                 slotImages[guesscount*4+1] = R.drawable.b2;
             }
             else if(two == 'c'){
-                slotImages[0] = R.drawable.c0;
+                slotImages[1] = R.drawable.c0;
                 slotImages[guesscount*4+1] = R.drawable.c2;
             }
             else if(two == 'd'){
-                slotImages[0] = R.drawable.d0;
+                slotImages[1] = R.drawable.d0;
                 slotImages[guesscount*4+1] = R.drawable.d2;
             }
             else if(two == 'e'){
-                slotImages[0] = R.drawable.e0;
+                slotImages[1] = R.drawable.e0;
                 slotImages[guesscount*4+1] = R.drawable.e2;
             }
             else if(two == 'f'){
-                slotImages[0] = R.drawable.f0;
+                slotImages[1] = R.drawable.f0;
                 slotImages[guesscount*4+1] = R.drawable.f2;
             }
             else if(two == 'g'){
-                slotImages[0] = R.drawable.g0;
+                slotImages[1] = R.drawable.g0;
                 slotImages[guesscount*4+1] = R.drawable.g2;
             }
             else if(two == 'h'){
-                slotImages[0] = R.drawable.h0;
+                slotImages[1] = R.drawable.h0;
                 slotImages[guesscount*4+1] = R.drawable.h2;
             }
             else if(two == 'i'){
-                slotImages[0] = R.drawable.i0;
+                slotImages[1] = R.drawable.i0;
                 slotImages[guesscount*4+1] = R.drawable.i2;
             }
             else if(two == 'j'){
-                slotImages[0] = R.drawable.j0;
+                slotImages[1] = R.drawable.j0;
                 slotImages[guesscount*4+1] = R.drawable.j2;
             }
             else if(two == 'k'){
-                slotImages[0] = R.drawable.k0;
+                slotImages[1] = R.drawable.k0;
                 slotImages[guesscount*4+1] = R.drawable.k2;
             }
             else if(two == 'l'){
-                slotImages[0] = R.drawable.l0;
+                slotImages[1] = R.drawable.l0;
                 slotImages[guesscount*4+1] = R.drawable.l2;
             }
             else if(two == 'm'){
-                slotImages[0] = R.drawable.m0;
+                slotImages[1] = R.drawable.m0;
                 slotImages[guesscount*4+1] = R.drawable.m2;
             }
             else if(two == 'n'){
-                slotImages[0] = R.drawable.n0;
+                slotImages[1] = R.drawable.n0;
                 slotImages[guesscount*4+1] = R.drawable.n2;
             }
             else if(two == 'o'){
-                slotImages[0] = R.drawable.o0;
+                slotImages[1] = R.drawable.o0;
                 slotImages[guesscount*4+1] = R.drawable.o2;
             }
             else if(two == 'p'){
-                slotImages[0] = R.drawable.p0;
+                slotImages[1] = R.drawable.p0;
                 slotImages[guesscount*4+1] = R.drawable.p2;
             }
             else if(two == 'q'){
-                slotImages[0] = R.drawable.q0;
+                slotImages[1] = R.drawable.q0;
                 slotImages[guesscount*4+1] = R.drawable.q2;
             }
             else if(two == 'r'){
-                slotImages[0] = R.drawable.r0;
+                slotImages[1] = R.drawable.r0;
                 slotImages[guesscount*4+1] = R.drawable.r2;
             }
             else if(two == 's'){
-                slotImages[0] = R.drawable.s0;
+                slotImages[1] = R.drawable.s0;
                 slotImages[guesscount*4+1] = R.drawable.s2;
             }
             else if(two == 't'){
-                slotImages[0] = R.drawable.t0;
+                slotImages[1] = R.drawable.t0;
                 slotImages[guesscount*4+1] = R.drawable.t2;
             }
             else if(two == 'u'){
-                slotImages[0] = R.drawable.u0;
+                slotImages[1] = R.drawable.u0;
                 slotImages[guesscount*4+1] = R.drawable.u2;
             }
             else if(two == 'v'){
-                slotImages[0] = R.drawable.v0;
+                slotImages[1] = R.drawable.v0;
                 slotImages[guesscount*4+1] = R.drawable.v2;
             }
             else if(two == 'w'){
-                slotImages[0] = R.drawable.w0;
+                slotImages[1] = R.drawable.w0;
                 slotImages[guesscount*4+1] = R.drawable.w2;
             }
             else if(two == 'x'){
-                slotImages[0] = R.drawable.x0;
+                slotImages[1] = R.drawable.x0;
                 slotImages[guesscount*4+1] = R.drawable.x2;
             }
             else if(two == 'y'){
-                slotImages[0] = R.drawable.y0;
+                slotImages[1] = R.drawable.y0;
                 slotImages[guesscount*4+1] = R.drawable.y2;
             }
             else if(two == 'z'){
-                slotImages[0] = R.drawable.z0;
+                slotImages[1] = R.drawable.z0;
                 slotImages[guesscount*4+1] = R.drawable.z2;
             }
         }
@@ -596,107 +596,107 @@ public class Gamescreen extends AppCompatActivity{
         }
         if(three == third){
             if(three == 'a'){
-                slotImages[0] = R.drawable.a0;
+                slotImages[2] = R.drawable.a0;
                 slotImages[guesscount*4+2] = R.drawable.a2;
             }
             else if(three == 'b'){
-                slotImages[0] = R.drawable.b0;
+                slotImages[2] = R.drawable.b0;
                 slotImages[guesscount*4+2] = R.drawable.b2;
             }
             else if(three == 'c'){
-                slotImages[0] = R.drawable.c0;
+                slotImages[2] = R.drawable.c0;
                 slotImages[guesscount*4+2] = R.drawable.c2;
             }
             else if(three == 'd'){
-                slotImages[0] = R.drawable.d0;
+                slotImages[2] = R.drawable.d0;
                 slotImages[guesscount*4+2] = R.drawable.d2;
             }
             else if(three == 'e'){
-                slotImages[0] = R.drawable.e0;
+                slotImages[2] = R.drawable.e0;
                 slotImages[guesscount*4+2] = R.drawable.e2;
             }
             else if(three == 'f'){
-                slotImages[0] = R.drawable.f0;
+                slotImages[2] = R.drawable.f0;
                 slotImages[guesscount*4+2] = R.drawable.f2;
             }
             else if(three == 'g'){
-                slotImages[0] = R.drawable.g0;
+                slotImages[2] = R.drawable.g0;
                 slotImages[guesscount*4+2] = R.drawable.g2;
             }
             else if(three == 'h'){
-                slotImages[0] = R.drawable.h0;
+                slotImages[2] = R.drawable.h0;
                 slotImages[guesscount*4+2] = R.drawable.h2;
             }
             else if(three == 'i'){
-                slotImages[0] = R.drawable.i0;
+                slotImages[2] = R.drawable.i0;
                 slotImages[guesscount*4+2] = R.drawable.i2;
             }
             else if(three == 'j'){
-                slotImages[0] = R.drawable.j0;
+                slotImages[2] = R.drawable.j0;
                 slotImages[guesscount*4+2] = R.drawable.j2;
             }
             else if(three == 'k'){
-                slotImages[0] = R.drawable.k0;
+                slotImages[2] = R.drawable.k0;
                 slotImages[guesscount*4+2] = R.drawable.k2;
             }
             else if(three == 'l'){
-                slotImages[0] = R.drawable.l0;
+                slotImages[2] = R.drawable.l0;
                 slotImages[guesscount*4+2] = R.drawable.l2;
             }
             else if(three == 'm'){
-                slotImages[0] = R.drawable.m0;
+                slotImages[2] = R.drawable.m0;
                 slotImages[guesscount*4+2] = R.drawable.m2;
             }
             else if(three == 'n'){
-                slotImages[0] = R.drawable.n0;
+                slotImages[2] = R.drawable.n0;
                 slotImages[guesscount*4+2] = R.drawable.n2;
             }
             else if(three == 'o'){
-                slotImages[0] = R.drawable.o0;
+                slotImages[2] = R.drawable.o0;
                 slotImages[guesscount*4+2] = R.drawable.o2;
             }
             else if(three == 'p'){
-                slotImages[0] = R.drawable.p0;
+                slotImages[2] = R.drawable.p0;
                 slotImages[guesscount*4+2] = R.drawable.p2;
             }
             else if(three == 'q'){
-                slotImages[0] = R.drawable.q0;
+                slotImages[2] = R.drawable.q0;
                 slotImages[guesscount*4+2] = R.drawable.q2;
             }
             else if(three == 'r'){
-                slotImages[0] = R.drawable.r0;
+                slotImages[2] = R.drawable.r0;
                 slotImages[guesscount*4+2] = R.drawable.r2;
             }
             else if(three == 's'){
-                slotImages[0] = R.drawable.s0;
+                slotImages[2] = R.drawable.s0;
                 slotImages[guesscount*4+2] = R.drawable.s2;
             }
             else if(three == 't'){
-                slotImages[0] = R.drawable.t0;
+                slotImages[2] = R.drawable.t0;
                 slotImages[guesscount*4+2] = R.drawable.t2;
             }
             else if(three == 'u'){
-                slotImages[0] = R.drawable.u0;
+                slotImages[2] = R.drawable.u0;
                 slotImages[guesscount*4+2] = R.drawable.u2;
             }
             else if(three == 'v'){
-                slotImages[0] = R.drawable.v0;
+                slotImages[2] = R.drawable.v0;
                 slotImages[guesscount*4+2] = R.drawable.v2;
             }
             else if(three == 'w'){
-                slotImages[0] = R.drawable.w0;
+                slotImages[2] = R.drawable.w0;
                 slotImages[guesscount*4+2] = R.drawable.w2;
             }
             else if(three == 'x'){
-                slotImages[0] = R.drawable.x0;
+                slotImages[2] = R.drawable.x0;
                 slotImages[guesscount*4+2] = R.drawable.x2;
             }
             else if(three == 'y'){
-                slotImages[0] = R.drawable.y0;
+                slotImages[2] = R.drawable.y0;
                 slotImages[guesscount*4+2] = R.drawable.y2;
             }
             else if(three == 'z'){
-                slotImages[0] = R.drawable.z0;
+                slotImages[2] = R.drawable.z0;
                 slotImages[guesscount*4+2] = R.drawable.z2;
             }
         }
@@ -862,107 +862,107 @@ public class Gamescreen extends AppCompatActivity{
         }
         if(four == fourth){
             if(four == 'a'){
-                slotImages[0] = R.drawable.a0;
+                slotImages[3] = R.drawable.a0;
                 slotImages[guesscount*4+3] = R.drawable.a2;
             }
             else if(four == 'b'){
-                slotImages[0] = R.drawable.b0;
+                slotImages[3] = R.drawable.b0;
                 slotImages[guesscount*4+3] = R.drawable.b2;
             }
             else if(four == 'c'){
-                slotImages[0] = R.drawable.c0;
+                slotImages[3] = R.drawable.c0;
                 slotImages[guesscount*4+3] = R.drawable.c2;
             }
             else if(four == 'd'){
-                slotImages[0] = R.drawable.d0;
+                slotImages[3] = R.drawable.d0;
                 slotImages[guesscount*4+3] = R.drawable.d2;
             }
             else if(four == 'e'){
-                slotImages[0] = R.drawable.e0;
+                slotImages[3] = R.drawable.e0;
                 slotImages[guesscount*4+3] = R.drawable.e2;
             }
             else if(four == 'f'){
-                slotImages[0] = R.drawable.f0;
+                slotImages[3] = R.drawable.f0;
                 slotImages[guesscount*4+3] = R.drawable.f2;
             }
             else if(four == 'g'){
-                slotImages[0] = R.drawable.g0;
+                slotImages[3] = R.drawable.g0;
                 slotImages[guesscount*4+3] = R.drawable.g2;
             }
             else if(four == 'h'){
-                slotImages[0] = R.drawable.h0;
+                slotImages[3] = R.drawable.h0;
                 slotImages[guesscount*4+3] = R.drawable.h2;
             }
             else if(four == 'i'){
-                slotImages[0] = R.drawable.i0;
+                slotImages[3] = R.drawable.i0;
                 slotImages[guesscount*4+3] = R.drawable.i2;
             }
             else if(four == 'j'){
-                slotImages[0] = R.drawable.j0;
+                slotImages[3] = R.drawable.j0;
                 slotImages[guesscount*4+3] = R.drawable.j2;
             }
             else if(four == 'k'){
-                slotImages[0] = R.drawable.k0;
+                slotImages[3] = R.drawable.k0;
                 slotImages[guesscount*4+3] = R.drawable.k2;
             }
             else if(four == 'l'){
-                slotImages[0] = R.drawable.l0;
+                slotImages[3] = R.drawable.l0;
                 slotImages[guesscount*4+3] = R.drawable.l2;
             }
             else if(four == 'm'){
-                slotImages[0] = R.drawable.m0;
+                slotImages[3] = R.drawable.m0;
                 slotImages[guesscount*4+3] = R.drawable.m2;
             }
             else if(four == 'n'){
-                slotImages[0] = R.drawable.n0;
+                slotImages[3] = R.drawable.n0;
                 slotImages[guesscount*4+3] = R.drawable.n2;
             }
             else if(four == 'o'){
-                slotImages[0] = R.drawable.o0;
+                slotImages[3] = R.drawable.o0;
                 slotImages[guesscount*4+3] = R.drawable.o2;
             }
             else if(four == 'p'){
-                slotImages[0] = R.drawable.p0;
+                slotImages[3] = R.drawable.p0;
                 slotImages[guesscount*4+3] = R.drawable.p2;
             }
             else if(four == 'q'){
-                slotImages[0] = R.drawable.q0;
+                slotImages[3] = R.drawable.q0;
                 slotImages[guesscount*4+3] = R.drawable.q2;
             }
             else if(four == 'r'){
-                slotImages[0] = R.drawable.r0;
+                slotImages[3] = R.drawable.r0;
                 slotImages[guesscount*4+3] = R.drawable.r2;
             }
             else if(four == 's'){
-                slotImages[0] = R.drawable.s0;
+                slotImages[3] = R.drawable.s0;
                 slotImages[guesscount*4+3] = R.drawable.s2;
             }
             else if(four == 't'){
-                slotImages[0] = R.drawable.t0;
+                slotImages[3] = R.drawable.t0;
                 slotImages[guesscount*4+3] = R.drawable.t2;
             }
             else if(four == 'u'){
-                slotImages[0] = R.drawable.u0;
+                slotImages[3] = R.drawable.u0;
                 slotImages[guesscount*4+3] = R.drawable.u2;
             }
             else if(four == 'v'){
-                slotImages[0] = R.drawable.v0;
+                slotImages[3] = R.drawable.v0;
                 slotImages[guesscount*4+3] = R.drawable.v2;
             }
             else if(four == 'w'){
-                slotImages[0] = R.drawable.w0;
+                slotImages[3] = R.drawable.w0;
                 slotImages[guesscount*4+3] = R.drawable.w2;
             }
             else if(four == 'x'){
-                slotImages[0] = R.drawable.x0;
+                slotImages[3] = R.drawable.x0;
                 slotImages[guesscount*4+3] = R.drawable.x2;
             }
             else if(four == 'y'){
-                slotImages[0] = R.drawable.y0;
+                slotImages[3] = R.drawable.y0;
                 slotImages[guesscount*4+3] = R.drawable.y2;
             }
             else if(four == 'z'){
-                slotImages[0] = R.drawable.z0;
+                slotImages[3] = R.drawable.z0;
                 slotImages[guesscount*4+3] = R.drawable.z2;
             }
         }
