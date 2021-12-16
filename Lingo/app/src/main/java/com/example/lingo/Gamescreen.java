@@ -46,6 +46,10 @@ public class Gamescreen extends AppCompatActivity{
         String[] slotName = {"","","",""};
         //int[] slotImages = {R.drawable.zero,R.drawable.zero,R.drawable.zero,R.drawable.zero};
         List<Integer> slotImages = new ArrayList<Integer>();
+        slotImages.add(R.drawable.zero);
+        slotImages.add(R.drawable.zero);
+        slotImages.add(R.drawable.zero);
+        slotImages.add(R.drawable.zero);
         //Use two string arrays for slotname in order to expand it's size dynamically
         //convert arraylist to int[] like original noted out line 3 lines above before adding to it or something
 
