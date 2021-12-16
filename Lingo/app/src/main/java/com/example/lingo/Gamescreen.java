@@ -237,23 +237,13 @@ public class Gamescreen extends AppCompatActivity{
         char three = goalword.charAt(2);
         char four = goalword.charAt(3);
 
-        //have slots for yellow letters on top, representing goal word. then guesses get new rows of slots with blue for wrong place yellow for right place and white for wrong letter
-        //first row should start with underlines filling slots and letters filling it should also be underlined.
-
         String[] slotName = {"","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""};
         int[] slotImages = {R.drawable.zero,R.drawable.zero,R.drawable.zero,R.drawable.zero, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron, R.drawable.zeron};
-//        List<Integer> slotImages = new ArrayList<Integer>();
-//        slotImages.add(R.drawable.zero);
-//        slotImages.add(R.drawable.zero);
-//        slotImages.add(R.drawable.zero);
-//        slotImages.add(R.drawable.zero);
-        //Use two string arrays for slotname in order to expand it's size dynamically
-        //convert arraylist to int[] like original noted out line 3 lines above before adding to it or something
-        //OR have a fixed amount of guesses and simply use an array of a size of that amount x4 and trigger game over if all guesses are used and word isn't found
         int guesscount = 0;
 
         GridAdapter gridAdapter = new GridAdapter(Gamescreen.this, slotName, slotImages);
         binding.gridView.setAdapter(gridAdapter);
+        //build static bar for user input on the bottom
 
         String guess = "bear"; //take input after verifying that it is in dictionary
         guesscount += 1;
@@ -1327,6 +1317,9 @@ public class Gamescreen extends AppCompatActivity{
         }
         if(slotImages[0] != R.drawable.zero && slotImages[1] != R.drawable.zero && slotImages[2] != R.drawable.zero && slotImages[3] != R.drawable.zero){
             //You win screen pops up and you can return to menu; guesscount also displayed to user
+        }
+        else if(guesscount == 8){
+            //You lose screen pops up and you can return to menu
         }
 
 
