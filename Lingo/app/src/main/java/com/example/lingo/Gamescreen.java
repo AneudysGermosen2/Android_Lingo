@@ -52,16 +52,19 @@ public class Gamescreen extends AppCompatActivity{
         slotImages.add(R.drawable.zero);
         //Use two string arrays for slotname in order to expand it's size dynamically
         //convert arraylist to int[] like original noted out line 3 lines above before adding to it or something
+        int guesscount = 0;
 
         GridAdapter gridAdapter = new GridAdapter(Gamescreen.this, slotName, slotImages);
         binding.gridView.setAdapter(gridAdapter);
 
         String guess = "bear"; //take input after verifying that it is in dictionary
+        guesscount += 1;
         char first = guess.charAt(0);
         char second = guess.charAt(1);
         char third = guess.charAt(2);
         char fourth = guess.charAt(3);
         if(one == first){
+            //add yellow first to grid
             if(one == 'a'){
                 slotImages[0] = R.drawable.a0;
             }
@@ -141,7 +144,14 @@ public class Gamescreen extends AppCompatActivity{
                 slotImages[0] = R.drawable.z0;
             }
         }
+        else if(first == two || first == three || first == four){
+            //add blue first to grid
+        }
+        else{
+            //add white first to grid
+        }
         if(two == second){
+            //add yellow second to grid
             if(two == 'a'){
                 slotImages[1] = R.drawable.a0;
             }
@@ -221,7 +231,14 @@ public class Gamescreen extends AppCompatActivity{
                 slotImages[1] = R.drawable.z0;
             }
         }
+        else if(second == one || second == three || second == four){
+            //add blue second to grid
+        }
+        else{
+            //add white second to grid
+        }
         if(three == third){
+            //add yellow third to grid
             if(three == 'a'){
                 slotImages[2] = R.drawable.a0;
             }
@@ -301,7 +318,14 @@ public class Gamescreen extends AppCompatActivity{
                 slotImages[2] = R.drawable.z0;
             }
         }
+        else if(third == one || third == two || third == four){
+            //add blue third to grid
+        }
+        else{
+            //add white third to grid
+        }
         if(four == fourth){
+            //add yellow fourth to grid
             if(four == 'a'){
                 slotImages[3] = R.drawable.a0;
             }
@@ -381,6 +405,16 @@ public class Gamescreen extends AppCompatActivity{
                 slotImages[3] = R.drawable.z0;
             }
         }
+        else if(fourth == one || fourth == two || fourth == three){
+            //add blue fourth to grid
+        }
+        else{
+            //add white fourth to grid
+        }
+        if(slotImages[0] != R.drawable.zero && slotImages[1] != R.drawable.zero && slotImages[2] != R.drawable.zero && slotImages[3] != R.drawable.zero){
+            //You win screen pops up and you can return to menu; guesscount also displayed to user
+        }
+
 
 
 //        binding.gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
