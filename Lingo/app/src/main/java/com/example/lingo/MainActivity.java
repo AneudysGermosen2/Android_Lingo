@@ -18,12 +18,16 @@ public class MainActivity extends AppCompatActivity {
     Button instructions;
     Button play;
     MediaPlayer click;
+    MediaPlayer soundtrack;
     GridView gridView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        soundtrack = MediaPlayer.create(this, R.raw.game_sound);
+        soundtrack.setVolume(1f,1f);
+
         click = MediaPlayer.create(this, R.raw.bruh);
         click.setVolume(1f,1f);
         play = (Button) findViewById(R.id.playButton);
@@ -34,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Gamescreen.class);
                 click.start();
+                soundtrack.start();
+                soundtrack.setLooping(true);
                 startActivity(intent);
             }
         });

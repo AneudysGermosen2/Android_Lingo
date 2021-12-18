@@ -25,7 +25,7 @@
     android:layout_height="wrap_content"
 
     android:ems="10"
-    android:hint="Add item" />
+    android:hint="Enter guess" />
 
     <GridView
         android:layout_marginTop="50dp"
