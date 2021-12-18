@@ -29,7 +29,6 @@ public class Gamescreen extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        guess = "beas";
         super.onCreate(savedInstanceState);
         binding = ActivityGridBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
@@ -255,9 +254,6 @@ public class Gamescreen extends AppCompatActivity{
         input.setOnKeyListener((v, keyCode, event) -> {
             guess = input.getText().toString();
             guess = guess.toLowerCase();
-            if(guess.length() > 4){
-                guess = "bear";
-            }
             //text = "bear";
             if (event.getAction() == KeyEvent.ACTION_DOWN)
             {
