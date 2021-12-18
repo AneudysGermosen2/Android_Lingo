@@ -164,7 +164,7 @@ public class Gamescreen extends AppCompatActivity{
                 "pres", "prey", "prig", "prim", "prix", "proc", "prod", "prof", "prom", "pron", "prop", "pros", "prow", "pubs",
                 "puce", "puck", "puds", "puff", "pugs", "puke", "pule", "pull", "pulp", "puma", "pump", "punk", "puns", "punt",
                 "puny", "pupa", "pups", "pure", "purl", "purr", "push", "puss", "puts", "putt", "pyre", "qaid", "qoph", "quad",
-                "quag", "quay", "ques", "quey", "quia", "quid", "quip", "quit",
+                "quag", "quay", "ques", "quey", "quid", "quip", "quit",
                 "quiz", "race", "rack", "racy", "rads", "raft", "rage", "rags", "raid", "rail", "rain", "raja", "rake", "ramp",
                 "rams", "rand", "rang", "rani", "rank", "rant", "rape", "raps", "rare", "rase", "rash", "rasp", "rate", "rats",
                 "rave", "raws", "rays", "raze", "razz", "read", "real", "ream", "reap", "rear", "recs", "redo", "reds", "reed",
