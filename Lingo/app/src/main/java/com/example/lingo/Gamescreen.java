@@ -1346,6 +1346,7 @@ public class Gamescreen extends AppCompatActivity{
                                         Intent intent = new Intent(Gamescreen.this, Losescreen.class);
                                         startActivity(intent);
                                     }
+                                    break;
                                 }
                             }
                             //guess = text;
