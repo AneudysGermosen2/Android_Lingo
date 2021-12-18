@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, Gamescreen.class);
                 click.start();
                 soundtrack.start();
-                soundtrack.setLooping(true);
+                //soundtrack.setLooping(true);
                 startActivity(intent);
             }
         });
