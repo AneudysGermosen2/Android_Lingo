@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
@@ -20,19 +21,20 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class Gamescreen extends AppCompatActivity{
-    EditText user_input;
+    EditText input;
+    String guess;
 
     //ActivityMainBinding binding;
     ActivityGridBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        user_input = findViewById(R.id.user_input);
 
-
+        guess = "beas";
         super.onCreate(savedInstanceState);
         binding = ActivityGridBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        //setContentView(R.layout.grid_item);
+        //setContentView(R.layout.activity_grid);
+        input = findViewById(R.id.user_input);
 
         String[] dictionary = {"abed", "abet", "able", "ably", "aced", "aces", "ache", "achy", "acid", "acne", "acre", "acts",
                 "adds", "adit", "aeon", "aery", "afar", "afro", "aged", "ages", "ahem", "ahoy", "aide", "aids", "ails", "aims",
@@ -250,9 +252,35 @@ public class Gamescreen extends AppCompatActivity{
         GridAdapter gridAdapter = new GridAdapter(Gamescreen.this, slotName, slotImages);
         binding.gridView.setAdapter(gridAdapter);
         //build static bar for user input on the bottom
+        input.setOnKeyListener(new View.OnKeyListener()
+        {
+            public boolean onKey(View v, int keyCode, KeyEvent event)
+            {
+                String text = input.getText().toString();
+                if (event.getAction() == KeyEvent.ACTION_DOWN)
+                {
+                    switch (keyCode)
+                    {
+                        case KeyEvent.KEYCODE_DPAD_CENTER:
+                        case KeyEvent.KEYCODE_ENTER:
 
-        String guess = "bear"; //take input after verifying that it is in dictionary
+
+                            guess = text;
+                            input.setText("");
+                            //makeDisplay(text + " added to list");
+                            return true;
+                        default:
+                            break;
+                    }
+                }
+                return false;
+            }
+
+        });
+
+        //String guess = "bear"; //take input after verifying that it is in dictionary
         guesscount += 1;
+
         char first = guess.charAt(0);
         char second = guess.charAt(1);
         char third = guess.charAt(2);
