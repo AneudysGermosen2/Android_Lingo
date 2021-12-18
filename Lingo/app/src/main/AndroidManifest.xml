@@ -20,6 +20,12 @@
             android:name=".activity_instruction"
             android:exported="false" />
         <activity
+            android:name=".Winscreen"
+            android:exported="false" />
+        <activity
+            android:name=".Losescreen"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
