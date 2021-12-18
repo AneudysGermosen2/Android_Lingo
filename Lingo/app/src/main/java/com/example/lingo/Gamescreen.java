@@ -119,7 +119,7 @@ public class Gamescreen extends AppCompatActivity{
                 "lacy", "lade", "lads", "lady", "lags", "laid", "lain", "lair", "lait", "lake", "laky", "lama", "lamb", "lame",
                 "lamp", "lams", "land", "lane", "lank", "laos", "lapp", "laps", "lard", "lark", "lash", "lass", "last", "late",
                 "lath", "laud", "lava", "lave", "lawn", "laws", "lays", "laze", "lazy", "lead", "leaf", "leak", "leal", "lean",
-                "leap", "lear", "leas", "lech", "lect", "leek", "leer", "lees", "left", "legs", "leis", "leks", "lend", "lens",
+                "leap", "lear", "leas", "lech", "leek", "leer", "lees", "left", "legs", "leis", "leks", "lend", "lens",
                 "lent", "lese", "less", "lest", "lets", "leva", "levi", "levo", "levy", "lewd", "leys", "liar", "lice", "lick",
                 "lido", "lids", "lied", "lief", "lien", "lier", "lies", "lieu", "life", "lift", "like", "lilt", "lily", "lima",
                 "limb", "lime", "limn", "limo", "limp", "limy", "line", "ling", "link", "lino", "lins", "lint", "liny", "lion",
