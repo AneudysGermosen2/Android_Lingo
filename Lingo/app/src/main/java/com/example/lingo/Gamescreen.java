@@ -264,8 +264,15 @@ public class Gamescreen extends AppCompatActivity{
                         case KeyEvent.KEYCODE_DPAD_CENTER:
                         case KeyEvent.KEYCODE_ENTER:
 
-
-                            guess = text;
+                            for(int i = 0; i < dictionary.length; i++){
+                                if(text == dictionary[i]){
+                                    guess = text;
+                                }
+                                else{
+                                    guess = "bear";
+                                }
+                            }
+                            //guess = text;
                             input.setText("");
                             //makeDisplay(text + " added to list");
                             return true;
@@ -275,6 +282,8 @@ public class Gamescreen extends AppCompatActivity{
                 }
                 return false;
             }
+
+
 
         });
 
