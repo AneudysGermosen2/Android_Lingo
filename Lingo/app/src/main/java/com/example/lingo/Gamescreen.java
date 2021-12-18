@@ -2,6 +2,7 @@ package com.example.lingo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -1316,10 +1317,12 @@ public class Gamescreen extends AppCompatActivity{
             }
         }
         if(slotImages[0] != R.drawable.zero && slotImages[1] != R.drawable.zero && slotImages[2] != R.drawable.zero && slotImages[3] != R.drawable.zero){
-            //You win screen pops up and you can return to menu; guesscount also displayed to user
+            Intent intent = new Intent(Gamescreen.this, Winscreen.class);
+            startActivity(intent);
         }
         else if(guesscount == 8){
-            //You lose screen pops up and you can return to menu
+            Intent intent = new Intent(Gamescreen.this, Losescreen.class);
+            startActivity(intent);
         }
 
 
