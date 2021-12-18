@@ -17,7 +17,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="120dp"
         android:fontFamily="@font/coiny"
-        android:text="Enter four-letter words for your guesses. Letters shared with the random word will be colored blue, and if they are in the correct position they will be colored yellow and will be filled in at the top. If you make eight guesses without filling in all the letters at the top you will lose the game."
+        android:text="Congratulations, you have unmasked the random word!"
         android:textColor="@android:color/white"
         android:textSize="25dp"
         android:textStyle="bold" />
