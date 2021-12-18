@@ -84,7 +84,7 @@ public class Gamescreen extends AppCompatActivity{
                 "flip", "flit", "floe", "flog", "flop", "flow", "flux", "foal", "foam", "fobs", "foci", "foes", "fogs", "fogy",
                 "foil", "fold", "folk", "fond", "font", "food", "fool", "foot", "fops", "fora", "ford", "fore", "fork", "form",
                 "fort", "foul", "four", "fowl", "foxy", "frag", "frat", "fray", "fred", "free", "fret", "frig", "friz", "frog",
-                "from", "frow", "frug", "fuck", "fuds", "fuel", "fugs", "fuji", "full", "fume", "fumy", "fund", "funk", "furl",
+                "from", "frow", "fuck", "fuds", "fuel", "fugs", "fuji", "full", "fume", "fumy", "fund", "funk", "furl",
                 "furs", "fury", "fuse", "fuss", "fuze", "fuzz", "gabs", "gads", "gaff", "gaga", "gage", "gags", "gain", "gait",
                 "gala", "gale", "gall", "gals", "game", "gams", "gamy", "gang", "gaol", "gape", "gaps", "gapy", "garb", "gars",
                 "gash", "gasp", "gate", "gats", "gaud", "gave", "gawk", "gays", "gaze", "gear", "geed", "geek", "gees", "geld",
