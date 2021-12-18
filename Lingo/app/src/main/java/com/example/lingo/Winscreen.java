@@ -21,7 +21,7 @@ public class Winscreen extends AppCompatActivity {
         goBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(activity_instruction.this, MainActivity.class);
+                Intent intent = new Intent(Winscreen.this, MainActivity.class);
                 startActivity(intent);
             }
         });
